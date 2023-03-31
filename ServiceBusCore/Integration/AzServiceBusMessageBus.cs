@@ -12,7 +12,7 @@ namespace ServiceBusCore.Integration
     public class AzServiceBusMessageBus : IMessageBus
     {
         private string connectionString =
-             "Endpoint=sb://dfb-microservices-servicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=QQfYF1ZfF3BNZGMYinmPX1JR2elaWvaob+ASbPUXZ9Q=";
+             "Endpoint=NEED TO PUT CONNECTION STRING FROM SERVICE BUS HERE";
 
         public async Task PublishMessage(IntegrationBaseMessage message, string topicName)
         {
